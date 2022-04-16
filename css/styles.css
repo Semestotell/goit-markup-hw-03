@@ -259,6 +259,7 @@ margin: 0;
 .job-list .item+.item {
   margin-left: 30px;
 }
+
 .job-image{
   display: block;
   width: 100%;
@@ -319,6 +320,11 @@ margin: 0;
   color: var(--paragraph-color);
 }
 /******************************************PORTFOLIO************************************/
+.filter-image{
+  display: block;
+  width: 100%;
+  height: auto;
+}
 .filter-list{
   display: flex;
   margin:0 ;
@@ -388,11 +394,7 @@ letter-spacing: 0.06em;
   font-size: 16px;
   line-height: 1.9;
 }
-.projects-image{
-  display: block;
-  width: 100%;
-  height: auto;
-}
+
 .market:active,
 .market:visited,
 .market{
