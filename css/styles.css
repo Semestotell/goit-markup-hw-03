@@ -186,7 +186,7 @@ color: #000;
 /********************************************INDEX******************************************/
 .hero{
   padding-top:200px ;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
   background-color: var(--solution-background-color);
   text-align: center;
 }
