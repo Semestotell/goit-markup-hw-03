@@ -240,7 +240,6 @@ margin: 0;
   color: var(--paragraph-color);
 }
 .studio-title{
-  padding-top: 94px;
   text-align: center;
   margin: 0;
   padding-bottom: 50px;
@@ -264,6 +263,16 @@ margin: 0;
   display: block;
   width: 100%;
   height: auto;
+}
+.team-title{
+  padding-top: 94px;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 50px;
+  
+  font-size: 36px;
+  line-height:1.16;
+  font-weight: 700;
 }
 .team{
   
