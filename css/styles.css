@@ -94,6 +94,7 @@ color: #000;
 .header-link-now:active,
 .header-link-now:visited,
 .header-link-now {
+  display:block;
   padding-left: 0;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -109,6 +110,7 @@ color: #000;
 .header-navigation-link:visited,
 .header-navigation-link {
   display: block;
+  padding: 32px 0;
 
 
   color:var(--header-navigation-color);
@@ -124,10 +126,9 @@ color: #000;
 
 .auth-nav{
   display: flex;
-  margin-left: auto;
+  margin: 0 auto;
   padding-left: 0;
-  padding-top:32px ;
-  padding-bottom: 32px;
+
 }
 .auth-nav .item+.item {
   margin-left: 50px
@@ -135,6 +136,9 @@ color: #000;
 .header-contscts:active,
 .header-contscts:visited,
 .header-contacts {
+  display: block;
+  padding: 32px 0;
+
   line-height: 1.14;
   font-weight: 500;
   font-style: normal;
@@ -291,8 +295,8 @@ color: #000;
   padding-left: 0;
 }
 .team-list .item{
-  background-color: var(--team-list-background-color)
-  background-color: ;
+  background-color:#fff;
+
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
   0px 1px 1px rgba(0, 0, 0, 0.14),
   0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -384,7 +388,7 @@ color: #000;
   margin-bottom: 0;
 }
 .projects-title{
-  margin:0;
+  margin:0 0 4px 0;
 
   font-size: 18px;
   line-height: 2;
@@ -399,11 +403,7 @@ color: #000;
   line-height: 1.9;
 }
 .market-list{
-  padding: 20px 24px 4px 24px;
-}
-.market-list-description{
-padding: 0 24px 20px 24px;
-}
+  padding: 20px 24px 20px 24px}
 
 .market:active,
 .market:visited,
