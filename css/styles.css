@@ -126,9 +126,9 @@ color: #000;
 
 .auth-nav{
   display: flex;
-  margin: 0 auto;
+  margin: 0;
+  margin-left: 331px;
   padding-left: 0;
-
 }
 .auth-nav .item+.item {
   margin-left: 50px
