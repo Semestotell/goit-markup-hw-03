@@ -127,7 +127,7 @@ color: #000;
 .auth-nav{
   display: flex;
   margin: 0;
-  margin-left: 331px;
+  margin-left:auto;
   padding-left: 0;
 }
 .auth-nav .item+.item {
